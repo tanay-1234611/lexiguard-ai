@@ -1,0 +1,17 @@
+# Core dependencies (minimal required for CLI & core engine)
+pypdf>=4.0.0
+python-docx>=1.1.0
+langdetect>=1.0.9
+
+# Optional Web UI & API
+streamlit>=1.35.0
+fastapi>=0.111.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+
+# Optional LLM integration (Gemini / OpenAI)
+google-genai>=0.3.0
+python-dotenv>=1.0.1
+
+# Testing
+pytest>=8.0.0
